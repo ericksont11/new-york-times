@@ -1,0 +1,39 @@
+.jumbotron {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+i {
+    padding-right: 5px;
+}
+
+section {
+    width: 95%;
+    border: 2px solid darkgray;
+    margin-left: 7px;
+}
+
+#parameters {
+    background-color: lightgrey;
+    padding: 12px;
+    color: navy;
+    width: 100%
+}
+
+form {
+    margin: 10px;
+    border: 1px, solid navy;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.love {
+    text-align: center;
+}

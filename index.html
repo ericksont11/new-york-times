@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>NYTimes search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    
+</head>
+<body>
+
+ <div class="jumbotron">
+    <div id="title"><i class="fa fa-newspaper-o"></i>New York Times Search</div>  
+ </div>
+ <section>
+        <p id = "parameters">Search Parameters</p>
+    </div>
+ <form>
+    <label>Search Terms</label>
+    <input type="text" id="terms" name="searchTerms">
+    <div class="form-group">
+            <label for="exampleFormControlSelect1">Number of Records to Retrieve</label>
+            <select class="form-control" id="optionSelected">
+              <option>1</option>
+              <option>5</option>
+              <option>10</option>
+            </select>
+          </div> 
+    <label>Start Year (Optional)</label>
+    <input type="text" id="StartDate" name="startYear">
+    <label>End Year (Optional)</label>
+    <input type="text" id="endDate" name="endYear">
+</form>
+</section>
+<br>
+<button id="searchButton"><i class="fas fa-search-plus"></i>Search</button>
+<button id="clear"><i class="far fa-trash-alt"></i>Clear Results</button>
+<br>
+<br>
+
+
+<section class = "love">
+    <p>Made with lots of <i class="fa fa-heart"></i></p>
+    <div id= results>Search Results</div>
+</section>
+
+<br>
+<br>
+<script src="assets/javascript/thomas.js"></script>
+</body>
+</html>
